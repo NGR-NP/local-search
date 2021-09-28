@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+
+
+    <title>Get Listed Free</title>
+  
+</head>
+<body>
+    
+    <div >
+        <h1 class="heading">NOT ON LOCAL SEARCH YET? <br> CREATE YOUR FREE BUSINESS PROFILE PAGE</h1>
+    </div>
+    <form class="containers">
+        
+            <p class="pih">Business information</p>
+            
+            <div class="forms">
+                <input type="text" name="Business Name" id="BusinessName" placeholder="Business Name *" required>
+            </div>
+            
+            <div>
+                <input type="text" name="Company Address" id="BusinessAddress" placeholder="Business Address *" required>
+            </div>
+            
+            <div class="forms">
+                <select name="province" id="Province" required>
+                    <option value="">--Province / प्रदेश--</option>
+                    <option vlaue="p-1">Province - 1 | प्रदेश नं. १</option>
+                </select>
+            </div>
+            
+            <div class="forms">
+                <select name="Zone" id="Zone" required>
+                    <option value="">--Zone / अंचल--</option>
+                    <option value="Koshi">Koshi Zone</option>
+                </select>
+            </div>
+            
+            <div class="forms">
+                <select name="District" id="District" required>
+                    <option value="">--District / जिल्ला--</option>
+                    <option value="Sunsari">Sunsari</option>
+                </select>
+            </div>
+            
+            <div class="forms" >
+                <select name="City" id="City" required>
+                    <option value="">--City / शहर--</option>
+                    <option value="Itahari">Itahari</option>
+    
+                </select>
+            </div>
+            
+            <div class="forms">
+                <select name="Area" id="Area" required>
+                    <option value="">---City Area---</option>
+                    <option vlaue="1">Itahari - 1 </option>
+                    <option vlaue="2">Itahari - 2 </option>
+                    <option vlaue="3">Itahari - 3 </option>
+                    <option vlaue="4">Itahari - 4 </option>
+                    <option vlaue="5">Itahari - 5 </option>
+                    <option vlaue="6">Itahari - 6 </option>
+                    <option vlaue="7">Itahari - 7 </option>
+                    <option vlaue="8">Itahari - 8 </option>
+                    <option vlaue="9">Itahari - 9 </option>
+                    <option vlaue="10">Itahari - 10</option>
+                    <option vlaue="11">Itahari - 11</option>
+                    <option vlaue="12">Itahari - 12</option>
+                    <option vlaue="13">Itahari - 13</option>
+                    <option vlaue="14">Itahari - 14</option>
+                    <option vlaue="15">Itahari - 15</option>
+                    <option vlaue="16">Itahari - 16</option>
+                    <option vlaue="17">Itahari - 17</option>
+                    <option vlaue="18">Itahari - 18</option>
+                    <option vlaue="19">Itahari - 19</option>
+                    <option vlaue="20">Itahari - 20</option>
+                    <option vlaue="21">Itahari - 21</option>
+                    <option vlaue="22">Itahari - 22</option>
+                    <option vlaue="23">Itahari - 23</option>
+                    <option vlaue="24">Itahari - 24</option>
+                    <option vlaue="25">Itahari - 25</option>
+                    <option vlaue="26">Itahari - 26</option>
+                </select>
+            </div>
+            
+            <input type="text" name="postal codes" id="postalcodes" placeholder="postal codes">
+            
+            <div class="forms">
+                <select name="classification" id="Classification" onchange='CheckClassification(this.value);' required>
+                    <option value="">--Select Classification--</option>
+                    <option value="Hotel">Hotel</option>
+                    <option value="Restaurant">Restaurant</option>
+                    <option value="Hotel & Restaurant">Hotel & Restaurant</option>
+                    <option value="Men's Fashon">Men's Fashon</option>
+                    <option value="Ladie's Fashon">Ladie's Fashon</option>
+                    <option value="Baby's Fashon">Baby's Fashon</option>
+                    <option value="Baby's accessories">Baby's accessories</option>
+                    <option value="Men's & Ladie's Fashon">Men's & Ladie's Fashon</option>
+                    <option value="Banks">Banks</option>
+                    <option value="Others">Others</option>
+                    
+                    <div class="forms">
+                        <input type="text" name="OtherClassification" id="otherclassification" placeholder="--Others Classification--" style='display:none;' required>
+                    </div>
+                </select>
+            </div>
+            <div  class="forms">
+                <select name="Year of Establishment" id="YearofEstablishment" required>
+                    <option value="">--Year of Establishment--</option>
+                    <option value=2000>2000 B.S.</option>
+                    <option value=2001>2001 B.S.</option>
+                    <option value=2002>2002 B.S.</option>
+                    <option value=2003>2003 B.S.</option>
+                    <option value=2004>2004 B.S.</option>
+                    <option value=2005>2005 B.S.</option>
+                    <option value=2006>2006 B.S.</option>
+                    <option value=2007>2007 B.S.</option>
+                    <option value=2008>2008 B.S.</option>
+                    <option value=2009>2009 B.S.</option>
+                    <option value=2010>2010 B.S.</option>
+                    <option value=2011>2011 B.S.</option>
+                    <option value=2012>2012 B.S.</option>
+                    <option value=2013>2013 B.S.</option>
+                    <option value=2014>2014 B.S.</option>
+                    <option value=2015>2015 B.S.</option>
+                    <option value=2016>2016 B.S.</option>
+                    <option value=2017>2017 B.S.</option>
+                    <option value=2018>2018 B.S.</option>
+                    <option value=2019>2019 B.S.</option>
+                    <option value=2020>2020 B.S.</option>
+                    <option value=2021>2021 B.S.</option>
+                    <option value=2022>2022 B.S.</option>
+                    <option value=2023>2023 B.S.</option>
+                    <option value=2024>2024 B.S.</option>
+                    <option value=2025>2025 B.S.</option>
+                    <option value=2026>2026 B.S.</option>
+                    <option value=2027>2027 B.S.</option>
+                    <option value=2028>2028 B.S.</option>
+                    <option value=2029>2029 B.S.</option>
+                    <option value=2030>2030 B.S.</option>
+                    <option value=2031>2031 B.S.</option>
+                    <option value=2032>2032 B.S.</option>
+                    <option value=2033>2033 B.S.</option>
+                    <option value=2034>2034 B.S.</option>
+                    <option value=2035>2035 B.S.</option>
+                    <option value=2036>2036 B.S.</option>
+                    <option value=2037>2037 B.S.</option>
+                    <option value=2038>2038 B.S.</option>
+                    <option value=2039>2039 B.S.</option>
+                    <option value=2040>2040 B.S.</option>
+                    <option value=2041>2041 B.S.</option>
+                    <option value=2042>2042 B.S.</option>
+                    <option value=2043>2043 B.S.</option>
+                    <option value=2044>2044 B.S.</option>
+                    <option value=2045>2045 B.S.</option>
+                    <option value=2046>2046 B.S.</option>
+                    <option value=2047>2047 B.S.</option>
+                    <option value=2048>2048 B.S.</option>
+                    <option value=2049>2049 B.S.</option>
+                    <option value=2050>2050 B.S.</option>
+                    <option value=2051>2051 B.S.</option>
+                    <option value=2052>2052 B.S.</option>
+                    <option value=2053>2053 B.S.</option>
+                    <option value=2054>2054 B.S.</option>
+                    <option value=2055>2055 B.S.</option>
+                    <option value=2056>2056 B.S.</option>
+                    <option value=2057>2057 B.S.</option>
+                    <option value=2058>2058 B.S.</option>
+                    <option value=2059>2059 B.S.</option>
+                    <option value=2060>2060 B.S.</option>
+                    <option value=2061>2061 B.S.</option>
+                    <option value=2062>2062 B.S.</option>
+                    <option value=2063>2063 B.S.</option>
+                    <option value=2064>2064 B.S.</option>
+                    <option value=2065>2065 B.S.</option>
+                    <option value=2066>2066 B.S.</option>
+                    <option value=2067>2067 B.S.</option>
+                    <option value=2068>2068 B.S.</option>
+                    <option value=2069>2069 B.S.</option>
+                    <option value=2070>2070 B.S.</option>
+                    <option value=2071>2071 B.S.</option>
+                    <option value=2072>2072 B.S.</option>
+                    <option value=2073>2073 B.S.</option>
+                    <option value=2074>2074 B.S.</option>
+                    <option value=2075>2075 B.S.</option>
+                    <option value=2076>2076 B.S.</option>
+                    <option value=2077>2077 B.S.</option>
+                    <option value=2078>2078 B.S.</option>
+    
+                </select>
+            </div>
+            
+            
+            <div class="forms">
+                <input type="number" name="Business number" id="businessnumber" placeholder="Business Phone Number *" required>
+            </div>
+            
+            <div>
+                <input type="website" name="website" id="website" placeholder="Website">
+            </div>
+            
+            <div>
+            <div>
+                <h4 class="pi"><input type="checkbox" name="Nowebsite" id="Nowebsite"> We do not have a Website.</h4>
+    
+            </div>
+            <div class="socialid">
+                <input type="text" name="E-sathi" id="esathi" placeholder="E-sathi *"  required  >
+                <i class="material-icons"style="font-size:18px;">help</i>
+                <p id="esathiText">E-sathi is an social media platform developed by NEPALESE Youth in oder to get listed free you need to have account on this website: E-sahti.com</p>
+                 <input type="text" name="facebook" id="facebook" placeholder="Facebook"> <input type="text" name="instagram" id="instagram" placeholder="Instagram"><input type="text" name="twitter" id="twitter" placeholder="Twitter">
+            </div>
+            
+            <div class="workinghoursform" id="workinghoursform">
+                <p class="pi">OPENING HOURS</p>
+                <h5>24/7<br><input type="checkbox" name="open24/7" id="openhour"></h5>
+                <SELECT class="hourstext">
+                    <option value="">Form</option>
+                    <option value="4am">4 AM</option>
+                    <option value="4:30am">4:30 AM</option>
+                    <option value="5am">5 AM</option>
+                    <option value="5:30am">5:30 AM</option>
+                    <option value="6am">6 AM</option>
+                    <option value="6:30am">6:30 AM</option>
+                    <option value="7am">7 AM</option>
+                    <option value="7:30am">7:30 AM</option>
+                    <option value="8am">8 AM</option>
+                    <option value="8:30am">8:30 AM</option>
+                    <option value="9am">9 AM</option>
+                    <option value="9:30am">9:30 AM</option>
+                    <option value="10am">10 AM</option>
+                    <option value="10:30am">10:30 AM</option>
+                    <option value="11am">11 AM</option>
+                    <option value="11:30am">11:30 AM</option>
+                    <option value="12pm">12 PM</option>
+                    <option value="12:30pm">12:30 PM</option>
+                    <option value="1pm">1 PM</option>
+                    <option value="1:30pm">1:30 PM</option>
+                    <option value="2pm">2 PM</option>
+                    <option value="2:30pm">2:30 PM</option>
+                    <option value="3pm">3 PM</option>
+                    <option value="3:30pm">3:30 PM</option>
+                    <option value="4pm">4 PM</option>
+                    <option value="4:30pm">4:30 PM</option>
+                    <option value="5pm">5 PM</option>
+                    <option value="5:30pm">5:30 PM</option>
+                    <option value="6pm">6 PM</option>
+                    <option value="6:30pm">6:30 PM</option>
+                    <option value="7pm">7 PM</option>
+                    <option value="7:30pm">7:30 PM</option>
+                    <option value="8pm">8 PM</option>
+                    <option value="8:30pm">8:30 PM</option>
+                    <option value="9pm">9 PM</option>
+                    <option value="9:30pm">9:30 PM</option>
+                    <option value="10pm">10 PM</option>
+                    <option value="10:30pm">10:30 PM</option>
+                    <option value="11pm">11 PM</option>
+                    <option value="11:30pm">11:30 PM</option>
+                    <option value="12am">12 AM</option>
+                    <option value="12:30am">12:30 AM</option>
+                    <option value="1am">1 AM</option>
+                    <option value="1:30am">1:30 AM</option>
+                    <option value="2am">2 AM</option>
+                    <option value="2:30am">2:30 AM</option>
+                    <option value="3am">3 AM</option>
+                    <option value="3:30am">3:30 AM</option>
+                </SELECT>
+                <SELECT class="hourstext">
+                    <option value="">TO</option>
+                    <option value="4am">4 AM</option>
+                    <option value="4:30am">4:30 AM</option>
+                    <option value="5am">5 AM</option>
+                    <option value="5:30am">5:30 AM</option>
+                    <option value="6am">6 AM</option>
+                    <option value="6:30am">6:30 AM</option>
+                    <option value="7am">7 AM</option>
+                    <option value="7:30am">7:30 AM</option>
+                    <option value="8am">8 AM</option>
+                    <option value="8:30am">8:30 AM</option>
+                    <option value="9am">9 AM</option>
+                    <option value="9:30am">9:30 AM</option>
+                    <option value="10am">10 AM</option>
+                    <option value="10:30am">10:30 AM</option>
+                    <option value="11am">11 AM</option>
+                    <option value="11:30am">11:30 AM</option>
+                    <option value="12pm">12 PM</option>
+                    <option value="12:30pm">12:30 PM</option>
+                    <option value="1pm">1 PM</option>
+                    <option value="1:30pm">1:30 PM</option>
+                    <option value="2pm">2 PM</option>
+                    <option value="2:30pm">2:30 PM</option>
+                    <option value="3pm">3 PM</option>
+                    <option value="3:30pm">3:30 PM</option>
+                    <option value="4pm">4 PM</option>
+                    <option value="4:30pm">4:30 PM</option>
+                    <option value="5pm">5 PM</option>
+                    <option value="5:30pm">5:30 PM</option>
+                    <option value="6pm">6 PM</option>
+                    <option value="6:30pm">6:30 PM</option>
+                    <option value="7pm">7 PM</option>
+                    <option value="7:30pm">7:30 PM</option>
+                    <option value="8pm">8 PM</option>
+                    <option value="8:30pm">8:30 PM</option>
+                    <option value="9pm">9 PM</option>
+                    <option value="9:30pm">9:30 PM</option>
+                    <option value="10pm">10 PM</option>
+                    <option value="10:30pm">10:30 PM</option>
+                    <option value="11pm">11 PM</option>
+                    <option value="11:30pm">11:30 PM</option>
+                    <option value="12am">12 AM</option>
+                    <option value="12:30am">12:30 AM</option>
+                    <option value="1am">1 AM</option>
+                    <option value="1:30am">1:30 AM</option>
+                    <option value="2am">2 AM</option>
+                    <option value="2:30am">2:30 AM</option>
+                    <option value="3am">3 AM</option>
+                    <option value="3:30am">3:30 AM</option>
+                </SELECT>
+            </div>
+            
+            <div class="workingdaysform" id="workingdaysform">
+                <p class="pi">OFF DAYS</p>
+                <select class="daystext">
+                    <option value="">FROM</option>
+                    <option value="sun">SUNDAY</option>
+                    <option value="mon">MONDAY</option>
+                    <option value="tue">TUESDAY</option>
+                    <option value="wed">WEDNESDAY</option>
+                    <option value="thu">THURSDAY</option>
+                    <option value="fri">FRIDAY</option>
+                    <option value="sat">SATURDAY</option>
+                </select>
+                <select class="daystext">
+                    <option value="">TO</option>
+                    <option value="sun">SUNDAY</option>
+                    <option value="mon">MONDAY</option>
+                    <option value="tue">TUESDAY</option>
+                    <option value="wed">WEDNESDAY</option>
+                    <option value="thu">THURSDAY</option>
+                    <option value="fri">FRIDAY</option>
+                    <option value="sat">SATURDAY</option>
+                </select>
+            </div>
+            <div class="contactinformation" id="contactinformation">
+                <p class="pci">Contact information.</p>
+                <input type="text" name="c.f.name" id="contactfirname" placeholder="First Name *" required>
+            </div>
+            <div><input type="text" name="c.m.name" id="contactmidname" placeholder="Middle Name"></div>
+            <div><input type="text" name="c.l.name" id="contactlastname" placeholder="Last Name *" required></div>
+            <div><input type="number" name="Mobile number" id="mobnum" placeholder="Mobile Number *" required></div>
+            <div><input type="email" name="E-mail" id="email" placeholder="E-mail *" required></div>
+    
+            <div class="formsj">
+                <select name="jobtitle" id="jobtitle" onchange='checkjobtitle(this.value);' required>
+                    <option value="">Job Title</option>
+                    <option value="Owner">Owner</option>
+                    <option value="General manager">General Manager</option>
+                    <option value="Markting manager">Markting Manager</option>
+                    <option value="Branch Manager">Branch Manager</option>
+                    <option value="Others">Others</option>
+    
+                    <div class="formsj">
+                        <input type="text" name="Other jobtitle" id="otherjobtitle" placeholder="--Others Job Title--" style='display:none;' required>
+                    </div>
+                </select>
+            </div>
+            <div class="forms">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message...."></textarea>
+            </div>
+            <div class="forms">
+                <h5><input type="checkbox" name="agree" id="agree" required ><br>
+                I agree to the terms & conditions and privicy policy</h5>
+            </div>
+            <div class="forms">
+                <p class="pci">I would like to hear more about advertising on</p>
+                <span>
+                    <ul style=display:inline-block>
+                        <li><img src="https://static.lscdn.ae/assets/img/logo_localsearch_bg.png?1630584909" alt="ads"></li>
+                        <li><img src="https://i.ibb.co/ZMTsTZq/nf-google.png" alt="ads"></li>
+                        <li><img src="https://i.ibb.co/92n6mwt/download-1-removebg-preview1.png" alt="ads"></a></li>                    
+                    </ul>
+                </span><br>
+                <strong><input type="radio" class="ads" name="ads">Yes <input type="radio" name="ads"> No</strong>
+            </div>
+            
+            <div class="forms">
+                <input type="submit" value="Submit Your Business" class="btn"> 
+            </div>
+            <div class="resets">
+                <input type="reset" value="Reset Now">
+            </div>
+            
+    
+        
+    </form> 
+    
+    
+     
+</body> 
+</html> 
