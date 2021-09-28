@@ -1,0 +1,150 @@
+html{
+    background-color: rgb(24,26,27);
+}
+h1{
+    text-align: center;
+    margin-left: 80px;
+}
+.btn{
+    background-color: rgb(2,99,48);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;   
+}
+
+.containers{
+    width: 300px;
+    border: 3px solid rgb(238, 21, 130);
+    margin: auto;
+    background-color: rgb(14, 14, 14); 
+    text-align: center;
+    padding: inherit;
+}
+.heading{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.ads{
+    text-align: left;
+    margin-left: -150px;
+    margin-top: -90px;
+    
+}
+ul li{
+    display: inline-block;
+    
+}
+span img{
+    align-items: center;
+    margin-right: 50px;
+    margin-left: -35px;
+    margin-top: 11px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.forms {
+    /* border: 1px solid rgb(13, 236, 87); */
+    margin: 13px 3px;
+    padding: 6px 3px;
+}
+#jobtitle, #Zone, #Province, #District, #City, #Area, #Classification, #YearofEstablishment {
+    margin: 4px 3px;
+    padding: 5px;
+}
+p { 
+    text-align: left;
+    margin-left: 9px;
+    margin-top: 3px;
+    color: rgb(241, 215, 215);
+
+}
+.pi{
+    text-align: left;
+    margin-left: 39px;
+    margin-top: 19px;
+
+}
+.pih{
+    text-align: left;
+    margin-left: 19px;
+    margin-top: 11px;
+}
+.agree{
+    text-align: left;
+    display:inline-block;
+}
+.pci{
+    text-align: left;
+    margin-left: 9px;
+    margin-top: 63px;
+}
+
+.resets{
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 39px;
+
+}
+h4, h5{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 35px;
+    margin-top: -11px;
+}
+strong, h1{
+    color: white;
+}
+input, select, textarea{
+    background-color: black;
+    color: white;
+}
+
+#otherclassification, #otherjobtitle{
+    text-align: center;
+    margin-left: 62px;
+    margin-top: 15px;
+    padding: 2px;
+}
+.socialid{
+    margin: 20px 3px;
+    padding: 10px 3px;
+}
+#esathi, #facebook, #instagram, #twitter{
+    text-align: center;
+    margin: 10px 3px;
+    padding: 5px;
+}
+#BusinessName, #BusinessAddress, #contactfirname, #contactmidname, #contactlastname,#mobnum, #email, #postalcodes, #businessnumber, #website{
+    margin: 10px 3px;
+    padding: 5px;
+}
+.material-icons {
+    color: white;
+    padding: 2px;
+    margin-right: -26px;
+  }
+  
+  #esathiText {
+    display: none;
+  }
+  
+  
+  .material-icons:hover ~  #esathiText {
+    display: inherit;
+    /* float: right; */
+    padding: 12px;
+    border: 1.5px solid rgb(255, 0, 179);
+    background-color: rgb(240, 231, 222);
+    color: rgb(34, 32, 32);    
+  }
+
+aside{
+    padding: 49px;
+}
